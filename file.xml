@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<race xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <vechile_list>
+    <vechile xsi:type="car">
+      <consumption>0.2</consumption>
+      <speed>5</speed>
+      <mass>2</mass>
+    </vechile>
+    <vechile xsi:type="car">
+      <consumption>0.15</consumption>
+      <speed>7</speed>
+      <mass>3</mass>
+    </vechile>
+    <vechile xsi:type="carriage">
+      <consumption>0.049999999999999996</consumption>
+      <speed>4</speed>
+      <mass>2</mass>
+      <horses_stamina_list>
+        <double>0.1</double>
+        <double>0.11</double>
+        <double>0.15</double>
+      </horses_stamina_list>
+    </vechile>
+  </vechile_list>
+</race>
